@@ -1,0 +1,134 @@
+/* layout --------------------------------------- */
+
+body {
+  background-color: rgb(207, 207, 207);
+}
+
+main {
+  width: 56%;
+  text-align: justify;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  color: rgb(82, 82, 82);
+  line-height: 2rem;
+  background-color: rgb(241, 238, 238);
+  margin: 20px;
+}
+
+section {
+  margin: 50px;
+}
+
+span {
+  font-size: 0.9rem;
+  color: rgb(153, 153, 153);
+  line-height: 1rem;
+}
+
+/* footer ------------------------------------- */
+footer {
+  height: 160px;
+}
+
+footer > p {
+  text-align: center;
+}
+
+/* header ------------------------------------ */
+h1 {
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 1.7rem;
+  line-height: 2.5rem;
+  color: black;
+  padding-right: 20px;
+}
+
+h2 {
+  color: black;
+  font-size: 1.3rem;
+}
+
+h3 {
+  color: blue;
+  font-size: 1.1rem;
+}
+
+/* image ------------------------------------- */
+
+p ~ img {
+  display: block;
+  width: 60%;
+  margin: auto;
+  border: thick double rgb(216, 123, 138);
+  border-radius: 30px;
+}
+
+/* font style ------------------------------- */
+strong {
+  color: rgb(44, 44, 44);
+}
+
+/* link----------------------------------- */
+a[href*=".com"] {
+  display: block;
+  width: 100px;
+  background-color: rgb(255, 255, 63);
+  text-align: center;
+  margin: auto;
+  border-radius: 15px;
+  font-weight: bolder;
+}
+
+a[href*="#"] {
+  display: block;
+  color: white;
+  font-weight: bold;
+  width: 40px;
+  height: 40px;
+  border: 3px solid black;
+  line-height: 40px;
+  text-align: center;
+  margin: 20px auto;
+  border-radius: 50%;
+}
+
+a:link,
+a:active,
+a:visited {
+  color: darkmagenta;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+}
+
+a[href*=".com"]:hover {
+  background-color: black;
+}
+
+a[href*="#"]:link,
+a[href*="#"]:active,
+a[href*="#"]:visited {
+  color: black;
+}
+a[href*="#"]:hover {
+  background-color: orange;
+  color: white;
+}
+
+/* class----------------------------- */
+.spacing {
+  padding-top: 20px;
+  color: black;
+}
+
+.listcolor {
+  color: black;
+}
+
+/* id ---------------------------------- */
+#listcolor {
+  color: darkorange;
+}
